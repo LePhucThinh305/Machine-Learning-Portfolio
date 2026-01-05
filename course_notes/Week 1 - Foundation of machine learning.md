@@ -1,7 +1,5 @@
 # Week 1 - Foundation of machine learning
 
-# Week 1 – Foundations of Machine Learning
-
 ## 📝 Topic Overview
 
 Machine Learning (ML) is a subfield of computer science and artificial intelligence that focuses on designing systems capable of **learning patterns from data** and **making predictions or decisions without being explicitly programmed**.
