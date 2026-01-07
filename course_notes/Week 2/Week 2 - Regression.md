@@ -40,8 +40,8 @@ Regression is a foundational supervised learning technique used to predict conti
 - In univariate hypothesis there are only 2 parameter of the hypothesis function:  θ0 and θ1.
 - In multivariate hypothesis there are m + 1 parameters where m is the total number of attributes.
 
-- Gradient descent is a technique to optimize the lost function using the value of the gradient of the graph (theta 1, loss function). Since in univariate the loss function is a hyperbola. We can take the partial derivative and increase theta 0/1 (if gradient is negative) or decrease (if gradient is positive). The value we increase/decrease by is called the step size/learning rate.
-- In multivariate the gradient descent is a multi dimensional function since for m attributes there are m+1 weight. So to update the value of theta j we take partial derivative of theta j of the loss function and plus/minus the step size based on the gradient value just like in univariate.
+- Gradient descent is a technique to optimize the lost function using the value of the gradient of the graph (theta 1, loss function). Since in univariate the loss function is a hyperbola. We can take the partial derivative and increase theta 0/1 (if gradient is negative) or decrease (if gradient is positive). The value we increase/decrease by is (learning rate × derivative).
+- In multivariate the gradient descent is a multi dimensional function since for m attributes there are m+1 weight. So to update the values of thetas we take partial derivative of each theta with respect to the loss function and adjust the values of each theta by adding/removing (learning rate × derivative) just like in univariate.
 
 - Practical issues:
     - Hypothesis:
