@@ -43,6 +43,8 @@ Regression is a foundational supervised learning technique used to predict conti
 - Gradient descent is a technique to optimize the lost function using the value of the gradient of the graph (theta 1, loss function). Since in univariate the loss function is a hyperbola. We can take the partial derivative and increase theta 0/1 (if gradient is negative) or decrease (if gradient is positive). The value we increase/decrease by is (learning rate × derivative).
 - In multivariate the gradient descent is a multi dimensional function since for m attributes there are m+1 weight. So to update the values of thetas we take partial derivative of each theta with respect to the loss function and adjust the values of each theta by adding/removing (learning rate × derivative) just like in univariate.
 
+**new θ = old θ − (learning rate × derivative)**
+
 - Practical issues:
     - Hypothesis:
         - Is the regression model (choice of weights) good? That is, the hypothesis h(x) is a good choice from hypothesis space h.
