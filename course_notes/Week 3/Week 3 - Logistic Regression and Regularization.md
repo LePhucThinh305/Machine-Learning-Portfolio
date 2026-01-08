@@ -72,7 +72,6 @@ $$
 
 $$
 h_θ(x) = g(θᵀx) = 1 / (1 + e^(−θᵀx))
-
 $$
 
 *We use the value of the regression function and place it into the sigmoid function input (z).
@@ -81,7 +80,6 @@ $$
 
 $$
 P(y = 0 \mid x; \theta) = 1 - h_\theta(x)
-
 $$
 
 This work because h(x) = P(y=1 ∣ x; θ)
